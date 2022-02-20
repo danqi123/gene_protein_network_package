@@ -1,0 +1,501 @@
+out,interaction_type,in
+KAT6A,physical association,RPL10
+SYMPK,physical association,KAT6A
+STX8,physical association,VAMP3
+STX8,physical association,NSF
+ELAVL1,colocalization,ABCD1
+ELAVL1,physical association,FN1
+ELAVL1,physical association,VCAM1
+ELAVL1,physical association,WWOX
+ELAVL1,physical association,UBE2A
+SCLY,colocalization,REXO2
+USP14,physical association,AR
+USP14,colocalization,PSMC3
+PTGER4,physical association,ARRB1
+KAT6A,direct interaction,H3-4
+H3-4,direct interaction,RAG1
+WDR5,physical association,H3-4
+CTBP1,direct interaction,H3-4
+PHF1,association,H3-4
+H3-4,direct interaction,TRPM7
+H4C6,physical association,RAD21
+U2SURP,physical association,CUL3
+U2SURP,physical association,MIR107
+U2SURP,physical association,MIR25
+U2SURP,direct interaction,DDX42
+U2SURP,physical association,MIR15B
+LMO7,physical association,PPP1CB
+PRKAR1A,physical association,GSK3B
+PRKAR1A,physical association,IFI16
+PRKAR1A,physical association,MTOR
+GRK2,physical association,CCR4
+GRK2,physical association,GIT2
+GNG5,direct interaction,GNB3
+ATP5MF,physical association,PRKN
+B2M,physical association,CFTR
+NUP42,physical association,NCBP1
+RPL26L1,colocalization,RPL13
+RPL26L1,physical association,MAGOH
+RPL26L1,physical association,DGCR8
+RPL26L1,physical association,NXF2
+RPL26L1,physical association,NUP160
+POLD4,direct interaction,POLD2
+REL,direct interaction,POLE2
+BTRC,physical association,REL
+REL,direct interaction,FHIT
+REL,physical association,EP300
+TGFBR3,direct interaction,NRP1
+POLR2I,colocalization,PSMB9
+MAPK14,direct interaction,CDC25B
+MAPK14,direct interaction,CDC25C
+MAPK14,physical association,LIPG
+MAPK14,physical association,ATF2
+MAPK14,physical association,TAB1
+MAPK14,direct interaction,CEP164
+CAPZB,physical association,ESR1
+CAPZB,physical association,PPP1CB
+MYH11,physical association,CAPZB
+CAPZB,physical association,BLNK
+SOS1,direct interaction,NCK1
+SOS1,physical association,FRS2
+PRDX6,physical association,YAP1
+PRDX6,direct interaction,HNF4G
+PRDX6,direct interaction,GPX4
+PRDX6,direct interaction,PRDX6
+RAB4A,physical association,LAMP1
+FLOT2,physical association,PTPN1
+FLOT2,physical association,ATP6V1B1
+GZMA,direct interaction,GZMA
+PML,physical association,NCOR1
+PML,physical association,PYCARD
+PML,colocalization,MAF
+PML,direct interaction,DAXX
+PML,direct interaction,CCNT1
+PML,physical association,AXIN1
+PML,physical association,SKIL
+PML,direct interaction,CDK6
+PML,physical association,PSME3
+ENO1,physical association,FBXW7
+ENO1,colocalization,ABAT
+ENO1,physical association,WWOX
+ENO1,physical association,H2AX
+ENO1,direct interaction,CLK1
+HACD1,physical association,SLC15A1
+GMPPB,colocalization,WDR82
+KAT8,direct interaction,TP53
+KAT8,direct interaction,PLAU
+PDHB,colocalization,PDHA1
+PDHB,colocalization,EIF5
+NEFH,physical association,ASAH1
+GNB1,physical association,GNG11
+GNB1,direct interaction,TBXA2R
+GNB1,physical association,PIK3R1
+GNB1,association,PDCL
+GNB1,physical association,MTOR
+COX17,physical association,COX14
+MDM4,physical association,YWHAH
+MDM4,direct interaction,CHEK1
+MDM4,association,MDM4
+MANBA,physical association,FBXO6
+F2R,physical association,CAV1
+KEAP1,physical association,RFC5
+RFC5,physical association,ZNF746
+RFC5,colocalization,RFC4
+PPP1CA,colocalization,OGT
+PPP1CA,direct interaction,SMARCB1
+PPP1CA,physical association,NR3C2
+PPP1CA,physical association,SYNPO
+PPP1CA,physical association,HDAC5
+PPP1CA,physical association,PPP1R15A
+PPP1CA,physical association,BAD
+PAICS,physical association,EIF6
+PAICS,physical association,NTRK1
+PAICS,physical association,PSMC4
+TRADD,physical association,CAV1
+TRADD,physical association,EDAR
+IST1,physical association,NF2
+SIPA1L1,physical association,NADK
+SIPA1L1,physical association,KSR1
+LAPTM5,direct interaction,NEDD4
+BIRC6,physical association,PSMC5
+BIRC6,direct interaction,CASP3
+IL1B,direct interaction,CASP1
+MCM3,physical association,BRCA1
+MCM3,direct interaction,MCM5
+MCM3,physical association,NOTCH1
+MCM3,physical association,RAD21
+MCM3,physical association,CCL2
+MCM3,physical association,HIF1A
+HYAL4,colocalization,IARS2
+SIRT2,physical association,FOXO1
+COL4A2,physical association,COLGALT2
+IFNGR1,physical association,SLC9A6
+MIR199A1,physical association,TAF15
+TAF15,physical association,MATR3
+TAF15,physical association,MIRLET7G
+RPA1,physical association,TAF15
+TAF15,physical association,MIRLET7E
+TAF15,physical association,MIR214
+OSM,physical association,LIFR
+SNRPG,physical association,SART1
+SART1,colocalization,HSPA5
+SART1,colocalization,SF3A1
+SART1,physical association,KMT2E
+SART1,colocalization,EEF1A1
+RHOC,physical association,DAAM2
+PDE3B,physical association,PDGFRB
+CCL7,direct interaction,CCR3
+EXOC2,physical association,LPAR6
+CDK1,physical association,CDC37
+CDK1,colocalization,PPM1B
+CDK1,direct interaction,UIMC1
+CDK1,physical association,CDC25C
+CDK1,physical association,VCAM1
+CDK1,physical association,SAMHD1
+CDK1,direct interaction,GADD45A
+ELAVL1,physical association,PHLPP1
+SUMO1,physical association,TP63
+TP63,suppressive genetic interaction defined by inequality,RBL2
+BTRC,physical association,TP63
+S100A1,direct interaction,S100A1
+SNAP25,direct interaction,STX3
+SNAP25,physical association,DGUOK
+MCM8,physical association,SKAP1
+MYLK2,physical association,MAPK7
+MT-ND2,physical association,YME1L1
+GALK1,physical association,CUL3
+KIT,physical association,LCK
+KIT,physical association,CD81
+STAT5A,physical association,EPOR
+JAK2,direct interaction,STAT5A
+STAT5A,physical association,SMARCA4
+STAT5A,direct interaction,CSNK2B
+EPHB3,physical association,EFNB2
+BRCA1,physical association,NCOA1
+BRCA1,physical association,GTF2I
+BRCA1,colocalization,TUBG1
+BRCA1,physical association,GATA3
+BRCA1,physical association,BRCC3
+BRCA1,direct interaction,AURKA
+BRCA1,direct interaction,CHEK1
+BRCA1,direct interaction,BARD1
+BRCA1,association,MED17
+BRCA1,physical association,TUBG1
+BRCA1,physical association,SMARCB1
+BRCA1,physical association,HERC2
+BRCA1,direct interaction,ABL1
+BRCA1,direct interaction,PIK3R1
+BRCA1,physical association,REV1
+RXRG,direct interaction,NR1H3
+ERP29,physical association,H2AX
+COX5A,colocalization,COX4I1
+TADA3,colocalization,NUP205
+ZNF7,direct interaction,TADA3
+PEX1,physical association,THBS3
+EIF3F,physical association,CYLD
+EIF3F,colocalization,EIF3G
+EIF3F,physical association,RPS6KB1
+CPSF1,physical association,MIR15A
+CPSF1,direct interaction,TAF12
+REL,direct interaction,CPSF1
+CPSF1,direct interaction,POLR2A
+CPSF1,physical association,MIRLET7I
+FBXL2,physical association,PIK3R2
+HEATR1,colocalization,PSMB3
+HEATR1,colocalization,PSMD3
+SLC9A3R1,colocalization,PDIA3
+SLC9A3R1,physical association,RACK1
+SLC9A3R1,direct interaction,CTNNB1
+PHLPP1,direct interaction,SLC9A3R1
+MTOR,physical association,RPTOR
+MTOR,physical association,LARS1
+MTOR,physical association,VCP
+MTOR,direct interaction,TRAF6
+CASP8,additive genetic interaction defined by inequality,MTOR
+MTOR,physical association,EIF4E
+MTOR,physical association,CFTR
+SLK,physical association,MED4
+MVD,colocalization,CAPN1
+NFYC,physical association,NFATC2
+ELAVL1,physical association,PPP1R12A
+PPP1R12A,physical association,ACTR2
+PPP1R12A,physical association,TP53
+NDUFB10,physical association,NDUFA4
+FANCG,physical association,NOTCH1
+FANCG,physical association,FANCL
+SPTA1,physical association,FANCG
+ACO2,physical association,ITGA4
+ARHGEF2,physical association,RPA2
+ARHGEF2,physical association,MAPK1
+ARHGEF2,physical association,FOXO3
+LYPLA2,colocalization,PKM
+PPP3CA,physical association,VCP
+PPP3CA,colocalization,ADRB2
+BCAP31,direct interaction,AQP2
+BCAP31,physical association,ATP2B2
+TNFRSF21,physical association,PSMD4
+CERS6,physical association,ATP2B2
+XRCC5,direct interaction,PGR
+XRCC5,physical association,ORC6
+XRCC5,physical association,SMURF1
+XRCC5,physical association,ESR1
+XRCC5,colocalization,RFC1
+XRCC5,physical association,BAX
+XRCC5,association,BIN1
+XRCC5,physical association,DCLRE1C
+XRCC5,colocalization,XRCC6
+SENP2,physical association,NUP133
+SENP2,direct interaction,SUMO3
+DAPK1,physical association,TNFRSF1A
+RPL11,colocalization,RPL18A
+RPL11,direct interaction,MDM2
+RPL11,physical association,RPL5
+RPL11,physical association,NCL
+RPL11,colocalization,FBL
+RPL11,colocalization,RPL23
+RPL11,colocalization,GNL3
+MAFB,direct interaction,MAFB
+GRIN2B,direct interaction,DLG4
+DDIT4,physical association,PRKN
+WDR36,colocalization,FBL
+WDR36,colocalization,PWP2
+WDR36,colocalization,GTPBP4
+TJP2,physical association,YWHAB
+MCM3,colocalization,TJP2
+IRF5,physical association,EP300
+EPN3,physical association,RALBP1
+BECN1,physical association,AMBRA1
+BECN1,colocalization,TAB2
+BECN1,direct interaction,PIK3C3
+ATP13A2,physical association,PEX19
+PRKAR2B,direct interaction,GNAI3
+GSTM2,direct interaction,GSTM2
+FADS2,direct interaction,ATXN1L
+GPD1,direct interaction,GK
+PDIA3,colocalization,MTAP
+PDIA3,physical association,MCM2
+PDIA3,colocalization,AARS1
+SERPINB13,physical association,GDF5
+SGPP1,physical association,ASIC4
+THBS1,direct interaction,LRP2
+NUP98,physical association,SEC13
+NUP98,physical association,ANAPC4
+NUP98,direct interaction,CSNK2A1
+NUP98,physical association,NUP58
+SMG7,physical association,DNA2
+MRPL2,physical association,MRPL4
+BRCA1,physical association,ABRAXAS1
+ABRAXAS1,direct interaction,BABAM2
+GGA1,direct interaction,IGF2R
+GGA1,physical association,BACE1
+GGA1,physical association,SORL1
+PSMA4,direct interaction,PSMA1
+PSMA4,direct interaction,PSMA2
+PSMA4,physical association,RAD23A
+KEAP1,physical association,PSMA4
+PSMA4,physical association,HUWE1
+BACE2,physical association,ATP1B3
+LSM1,colocalization,LSM3
+AK1,physical association,BRD4
+PIAS2,physical association,FLI1
+PIAS2,direct interaction,SUMO3
+PIAS2,direct interaction,PARK7
+PIAS2,direct interaction,TP53
+GLI1,physical association,IKBKB
+ARHGAP10,direct interaction,SH3BP2
+COX6C,physical association,NDUFS3
+SPTA1,physical association,XRCC6
+SPTA1,physical association,ERCC3
+CA4,direct interaction,SLC4A1
+CD247,physical association,CD38
+CD247,physical association,STAT5B
+SLC9A1,direct interaction,MAP3K14
+H2BC13,physical association,KEAP1
+ACSL4,physical association,SH3GLB1
+SRSF3,physical association,ICAM1
+SRSF3,colocalization,S100A9
+SRSF3,physical association,CUL3
+SRSF3,physical association,PAN2
+SCP2,physical association,PDHA1
+SMARCE1,physical association,WWOX
+SMARCE1,direct interaction,NCOA1
+SMARCE1,direct interaction,GOLGA2
+SMARCE1,physical association,NR3C1
+SMARCE1,physical association,MECP2
+BTRC,physical association,IKBKG
+BTRC,direct interaction,AGO2
+BTRC,physical association,IL10RA
+BTRC,physical association,CCND1
+BTRC,physical association,NFKBIE
+BTRC,physical association,CDC25B
+BTRC,physical association,SMAD4
+BTRC,physical association,EZH2
+BTRC,direct interaction,MDM2
+BTRC,physical association,YAP1
+UBE4B,colocalization,PSMB1
+BTRC,physical association,UBE4B
+UBE4B,direct interaction,HGS
+NDRG1,physical association,S100B
+NDRG1,colocalization,TSG101
+NR1H4,direct interaction,RXRA
+PC,physical association,TPSB2
+PC,physical association,IFIT1
+DCAF1,physical association,RPL7
+DCAF1,physical association,MUS81
+DCAF1,physical association,FOXM1
+DCAF1,physical association,UNG
+REXO1,physical association,AP2M1
+SMARCE1,direct interaction,AMOTL2
+AMOTL2,direct interaction,MTNR1A
+DOCK8,direct interaction,CHMP2A
+DNAJB6,physical association,BAG1
+DNAJB6,physical association,HSPA8
+ESPL1,physical association,ACKR3
+PPP1R12C,direct interaction,ATXN7
+UBE2T,physical association,FGB
+IDH1,colocalization,GOT1
+IL5,association,IL5
+PGAM5,physical association,TUBA1C
+PGAM5,physical association,PRKN
+PGAM5,physical association,BARD1
+PGAM5,physical association,MIR10B
+ARHGEF7,direct interaction,TUBB3
+ARHGEF7,physical association,CDC42
+TRA2B,physical association,MIR34A
+TRA2B,physical association,MIR145
+TRA2B,physical association,MIR222
+TRA2B,colocalization,S100A9
+TRA2B,physical association,MIR7-2
+TRA2B,physical association,SNRNP70
+TRA2B,physical association,CUL5
+TRA2B,physical association,MIR1-2
+RPS6KA2,physical association,HSP90AA1
+PIK3C2A,physical association,GTSE1
+PAIP1,colocalization,PDCD4
+LCAT,association,APOA1
+MRPL20,colocalization,MRPL18
+EDA2R,direct interaction,C1QB
+KRT10,physical association,AP2M1
+KRT10,physical association,CRY1
+PRNP,direct interaction,CLU
+PSMF1,physical association,PSMB2
+JAK2,direct interaction,RAF1
+JAK2,physical association,CTLA4
+JAK2,direct interaction,PTPN11
+JAK2,direct interaction,IL12RB2
+JAK2,physical association,IL6ST
+FXYD1,physical association,ATP1B1
+PTGS2,direct interaction,ELAVL1
+ZNF431,direct interaction,CDKN1A
+TTN,physical association,LMNA
+TTN,physical association,EWSR1
+PSMD1,colocalization,PSMD11
+PSMD1,physical association,SYVN1
+PSMD1,physical association,HDAC5
+PSMD1,physical association,GSK3A
+PSMD1,physical association,PRKN
+PSMD1,physical association,NTRK1
+PSMD1,synthetic genetic interaction defined by inequality,BLM
+GBP1,physical association,KEAP1
+SUMO1,direct interaction,DAXX
+SUMO1,direct interaction,MTOR
+NR1H4,physical association,SUMO1
+SUMO1,direct interaction,ATXN3
+SUMO1,direct interaction,ZBTB16
+MYH11,physical association,CFTR
+MYH11,physical association,PDHA1
+IFIT1,physical association,IFNA8
+NDUFB9,physical association,FUT1
+NDUFB9,colocalization,MPV17
+JAM3,direct interaction,JAM3
+SPTBN4,direct interaction,CDC37
+EDEM1,physical association,SSR1
+PLOD1,physical association,ISG15
+PLOD1,physical association,CUL4B
+PLOD1,physical association,PDIA3
+PLOD1,physical association,MIR9-2
+ECH1,physical association,HOGA1
+ECH1,physical association,NDUFA4
+CASP7,colocalization,GNS
+CASP7,colocalization,BAX
+THOC7,physical association,THOC2
+DAGLB,physical association,IPPK
+RPL7A,physical association,BRCA1
+RPL7A,physical association,SFN
+RPL7A,physical association,ITGA4
+RPL7A,colocalization,RPL37A
+RPL7A,physical association,CUL7
+RPL7A,physical association,CYLD
+RPL7A,physical association,HUWE1
+IL12B,physical association,IL23A
+PPID,direct interaction,FES
+RPA1,physical association,PAN2
+RPA1,physical association,ATG101
+RPA1,physical association,SNW1
+RPA1,direct interaction,PRPF19
+RPA1,direct interaction,BLM
+RPA1,colocalization,ARPC4
+RPA1,direct interaction,HNRNPUL1
+DET1,physical association,CUL4A
+POLR1B,physical association,TCOF1
+POLR1B,physical association,TWISTNB
+RAB35,physical association,CEP97
+PCGF2,direct interaction,UBE2E2
+PCGF2,physical association,EMD
+RPIA,physical association,DUSP3
+CAMKK2,direct interaction,NEDD4
+MAP3K12,physical association,HSP90AA1
+ARHGEF1,physical association,CD44
+H2AW,physical association,MCM2
+OS9,physical association,RXYLT1
+OS9,physical association,GGH
+HADHB,direct interaction,TK1
+HADHB,direct interaction,SMN1
+HADHB,physical association,FBXO6
+SNRPG,colocalization,SNRPD3
+SNRPG,direct interaction,DDX20
+MPHOSPH8,direct interaction,SIRT1
+TARDBP,colocalization,RANBP1
+TARDBP,physical association,RPA3
+TARDBP,physical association,HNRNPA1
+TARDBP,physical association,CFTR
+DDIT3,physical association,RPS3A
+DDIT3,physical association,PRKN
+SYMPK,physical association,MIR107
+SYMPK,physical association,CPSF2
+SYMPK,physical association,MIR214
+RPA1,physical association,SYMPK
+SYMPK,physical association,CPSF4
+MRPL23,colocalization,MRPL10
+SYCP3,physical association,SMC3
+FARS2,physical association,ISG15
+DPYSL2,physical association,SIRT7
+ENO2,colocalization,CTH
+ENO2,colocalization,COASY
+IFNAR1,physical association,FBXW11
+SMARCAD1,physical association,ZNF324B
+VRK3,direct interaction,PLK1
+FGF2,direct interaction,GPC4
+FGF2,direct interaction,RPL6
+VDAC3,colocalization,PPIF
+VDAC3,colocalization,EIF4A1
+PAFAH1B1,colocalization,CAPN2
+PAFAH1B1,physical association,PAFAH1B3
+PAFAH1B1,colocalization,YWHAG
+ZYX,physical association,CYLD
+ZYX,physical association,MED4
+ZYX,colocalization,SEC22B
+ZYX,direct interaction,ATXN1
+TAF3,direct interaction,H3-4
+AKR1C2,association,AKR1C2
+DNMT1,direct interaction,PCNA
+DNMT1,direct interaction,HDAC2
+DNMT1,physical association,SIRT7
+DNMT1,physical association,WT1
+BUD31,physical association,PRPF19
+MAPK8IP2,direct interaction,EGFR
+MAPK8IP2,direct interaction,MAPK8IP3
+ARHGEF6,physical association,ARHGEF6
+NQO1,physical association,NXF1
+CREB1,direct interaction,CREBBP
+CREB1,colocalization,EP300

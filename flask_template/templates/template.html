@@ -1,0 +1,117 @@
+{% extends "layout.html" %}
+{% block title %}{{title}}{% endblock %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+{% block page %}{{title}}{% endblock %}
+{% block heading %}
+  {{ super() }}
+{% endblock %}
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+{% block content %}
+  <br>
+  <body>
+  <img src= "static/book.jpg"
+       {#"https://raw.githubusercontent.com/mdn/learning-area/master/html/multimedia-and-embedding/images-in-html/dinosaur_small.jpg"#}
+  alt="Wait... for my missing food..."
+       width="670"
+  height="400">
+  </body>
+  <br>
+  <h1> <strong>WELCOME :)</strong></h1>
+  <br>
+  <h3> <strong>Choose Your Network</strong> </h3>
+
+  <form method="POST" action="/import_option">
+  <div>
+    <input type="radio" name="type" id="ppi" value="ppi_file" checked="true">
+    <label for="ppi">PPI File</label>
+  </div>
+    <div>
+    <input type="radio" name="type" id="node_edge" value="node_edge_file">
+    <label for="node_edge">Node/Edge Lists</label>
+  </div>
+    <div>
+    <button type="submit" name="submit">Submit</button>
+    </div>
+    <p><strong>{{reader_info}}</strong></p>
+    <br>
+    <table>
+      {{ data_table | safe }}
+    </table>
+    </form>
+    {% if data_table %}
+    <form method="POST" action="/plot.png">
+        <button type="submit" name="submit" >View Graph</button>
+    </form>
+    {% endif %}
+    <br>
+
+  <h3> <strong>HGNC Information Tool</strong> </h3>
+
+  <form method="POST" action="/identifier">
+    <textarea name="textbox" placeholder="e.g. RPL10" autocomplete="off"></textarea>
+    <button type="submit" name="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+  <form action="/">
+    <button type="submit" name="submit">Clear</button>
+  </form>
+  <br>
+  <p>Results for: <strong>{{my_string}}</strong></p>
+  <table border=1, bgcolor="#faebd7", width="400">
+    <thead>
+  <tr>
+    <th>hgnc</th>
+    <th>ensembl</th>
+    <th>uniprot</th>
+  </tr>
+  </thead>
+    <tbody>
+  <tr>
+    <td>{{hgnc_result}}</td>
+    <td>{{ensembl_result}}</td>
+    <td>{{uniprot_result}}</td>
+  </tr>
+    </tbody>
+  </table>
+
+  <a href = "http://rest.genenames.org/fetch/symbol/{{my_string}}">HGNC Link</a>
+  <br>
+  <a href = "https://www.uniprot.org/uniprot/{{uniprot_result}}">UniProt Link</a>
+
+  <br>
+  <br>
+  <h3> <strong>Shortest Path Tool<strong> </h3>
+  <h5> Please enter two HGNC symbols separated by a comma "," shown like below:</h5>
+  <form method="POST" action="/short_path">
+    <textarea name="source, target", placeholder="source,target"></textarea>
+    <button type="submit" name="submit">Submit</button>
+    <button type="reset">Reset</button>
+  <br>
+  <p>{{reminder}}</p>
+  <p>{{result}}</p>
+    <style>
+            ul li {
+                color: blue;
+            }
+        </style>
+    <ul>
+      {% for elem in find_path %}
+      <li>{{elem}}</li>
+      {% endfor %}
+    </ul>
+  </form>
+  <form action="/">
+    <button type="submit" name="submit">Clear</button>
+  </form>
+  <br>
+  <h3> <strong>GitLab Profile</strong> </h3>
+  {% block footer %}
+  {{super()}}
+  {% endblock %}
+{% endblock %}

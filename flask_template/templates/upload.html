@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block title %}{{title}}{% endblock %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+
+{% block page %}{{title}}{% endblock %}
+{% block heading %}
+  {{ super() }}
+{% endblock %}
+
+{% block content %}
+    <img src= "static/scratch.jpg"
+       {#"https://raw.githubusercontent.com/mdn/learning-area/master/html/multimedia-and-embedding/images-in-html/dinosaur_small.jpg"#}
+  alt="Wait... for my missing food..."
+       width="670"
+  height="400">
+<br>
+<br>
+    <form method="POST" action="/uploader" enctype="multipart/form-data">
+        <p><input type="file" name="file"></p>
+        <p><input type="submit" value="Upload" name="upload_and_clear"></p>
+        <p><input type="submit" value="Clear Contents" name="upload_and_clear"></p>
+        <p><strong>{{information}}</strong></p>
+    </form>
+
+{% block footer %}
+  {{super()}}
+  {% endblock %}
+{% endblock %}

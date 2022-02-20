@@ -1,0 +1,16 @@
+services:
+
+  db:
+    container_name: plab2_mysql
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: plab2db
+      MYSQL_ROOT_PASSWORD: plab2rocks
+
+  plab2pkg:
+    container_name: plab2_test
+    image: plab2
+    ports:
+      - 500:5000
+    environment:
+      FLASK_PORT: 5001

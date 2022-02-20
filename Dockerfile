@@ -1,7 +1,6 @@
 FROM python:3.9.9
 
 WORKDIR .
-#/Users/danqi/PLAB2-homework/plab2ws21-wangd0/Exercise_10
 RUN pip install --upgrade pip
 COPY . .
 RUN pip install -e plab2_package

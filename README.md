@@ -16,8 +16,8 @@
 * Docker
 
 ## Installation
-$ cd gene_protein_network_package
-$ pip install plab2_package
+* $ cd gene_protein_network_package
+* $ pip install plab2_package
 
 ## Comment
 Individual exercise
